@@ -1,8 +1,7 @@
-# GEOG312_R_2019_04_02.R
 # linear regression
 
 # define file path:
-fPath = "/Users/allenstandard/teaching/GEOG312/assignments/assignment06/data.csv"
+fPath = "/Users/ebinnicker/GEOG312/"
 
 # read in CSV file:
 tab = read.csv(fPath, header=T)
