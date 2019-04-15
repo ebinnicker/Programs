@@ -1,13 +1,8 @@
-################################################################################
-# GEOG312_R_2019_03_21.R
-################################################################################
-# George H Allen, March 21, 2019
-
 # Summary
-# Example code to automate calculation of spatial center, standard distance, 
+# automate calculation of spatial center, standard distance, 
 # and graphic output
 
-# Inputs: CSV files from eCampus
+# Inputs: CSV files
 # Outputs: PDF scatter plots with spatial center and standard distance
 
 
@@ -61,9 +56,8 @@ for (i in 1:length(fPaths)){
 dev.off()
 
 
-################################################################################
+
 # Write out one PDF for each plot:
-################################################################################
 # define PDF file paths:
 pdffNames = sub(".csv", ".pdf", fNames)
 pdfPaths = paste0(fDir, pdffNames)
