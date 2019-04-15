@@ -1,9 +1,5 @@
-################################################################################
-# GEOG312_R_2019_03_26.R
-################################################################################
-
 # specify directory containing CSV tables (used tables from lecture 16):
-fDir = "/Users/allenstandard/teaching/GEOG312/lectures/lecture17_inferential_spatialStats_II/"
+fDir = "/Users/ebinnicker/GEOG312/"
 
 # list CSV table files names:
 fNames = list.files(fDir, pattern=".csv")
@@ -68,12 +64,11 @@ NND = mean(nnDist)
 
 
 
-################################################################################
-# Same thing above except looping through each file:
-################################################################################
+
+# looping through each file:
 
 # specify directory containing CSV tables:
-fDir = "/Users/allenstandard/teaching/GEOG312/lectures/lecture17_inferential_spatialStats_II/"
+fDir = "/Users/ebinnicker/GEOG312/"
 
 # list CSV table files names:
 fNames = list.files(fDir, pattern=".csv")
