@@ -3,7 +3,7 @@ fPath = "C:/Users/ebinnicker/Documents/Classes/Spring 2019/GEOG 312/Assignments/
 tab = read.csv(fPath, header=T)
 
 # plot X (elevation) and Y (temperature)
-plot(tab$elev_m, tab$temp_C, main="Assignment 6: Elevation and Temperature", xlab="Elevation (meters)", ylab="Temperature (Celsius)")
+plot(tab$elev_m, tab$temp_C, main="Elevation and Temperature", xlab="Elevation (meters)", ylab="Temperature (Celsius)")
 # linear regression
 reg = lm(tab$temp_C ~ tab$elev_m)
 
